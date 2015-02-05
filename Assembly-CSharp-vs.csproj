@@ -49,6 +49,9 @@
      <Compile Include="Assets\GenerateMap.cs" />
      <Compile Include="Assets\Grid.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\castleCRASH.cs" />
+     <Compile Include="Assets\movement3D.cs" />
+     <Compile Include="Assets\ryft.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

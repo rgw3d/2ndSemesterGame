@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GenerateMap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\movement3D.cs">
     <Files>
-      <File FileName="Assets\GenerateMap.cs" Line="83" Column="74" />
+      <File FileName="Rogue-like.sln" Line="1" Column="1" />
+      <File FileName="Assets\movement3D.cs" Line="14" Column="14" />
+      <File FileName="Assets\GenerateMap.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

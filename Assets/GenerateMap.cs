@@ -18,7 +18,6 @@ public class GenerateMap : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         spriteArray = new GameObject[width,width];
-        //createInitSquare();
         List<Vector2> roomNodes = initRoomNodes();
         createRooms(roomNodes);
         
@@ -105,17 +104,7 @@ public class GenerateMap : MonoBehaviour {
         }
     }
 
-    void createInitSquare(){
-        spriteArray[1, 1] = Instantiate(walkable, new Vector3(1, 1), transform.rotation) as GameObject;
-        spriteArray[1, 1].transform.parent = gameObject.transform;
-        spriteArray[1, 0] = Instantiate(walkable, new Vector3(1, 0), transform.rotation) as GameObject;
-        spriteArray[1, 0].transform.parent = gameObject.transform;
-        spriteArray[0, 1] = Instantiate(walkable, new Vector3(0, 1), transform.rotation) as GameObject;
-        spriteArray[0, 1].transform.parent = gameObject.transform;
-    }
-
-    void createPaths()
-    {
+    void createPaths(List<Vector2> positions){
 
     }
 	
