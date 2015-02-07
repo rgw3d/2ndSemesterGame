@@ -65,9 +65,15 @@ public class NewBehaviourScript : MonoBehaviour {
             }
 		}
 
+<<<<<<< HEAD
         float distToBot = Mathf.Abs(yMin - transform.position.y);
         Vector3 newScale = new Vector3(-.3f * distToBot + 2f,-.3f * distToBot + 2f,1);
         transform.localScale = newScale;
+=======
+        //float distToBot = Mathf.Abs(yMin - transform.position.y);
+        //Vector3 newScale = new Vector3(-.5f * distToBot + .885f,-.125f * distToBot + .885f,1);
+        //transform.localScale = newScale;
+>>>>>>> update so I can pull
         
         ///if ymin = -1 is scale of 1, and 1 is scale of .75  (-1,1) and (1,.75)
         ///-.125 x +.885 = y

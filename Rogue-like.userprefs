@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\movement3D.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewBehaviourScript.cs">
     <Files>
-      <File FileName="Rogue-like.sln" Line="1" Column="1" />
-      <File FileName="Assets\movement3D.cs" Line="14" Column="14" />
-      <File FileName="Assets\GenerateMap.cs" Line="1" Column="1" />
+      <File FileName="Assets\NewBehaviourScript.cs" Line="76" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
